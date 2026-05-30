@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0A1628"/>
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#FFD700" stroke-width="14"/>
+  <!-- Star -->
+  <path fill="#FFD700" d="M256 96 l34.6 106.5 112 0 -90.6 65.8 34.6 106.5 -90.6 -65.8 -90.6 65.8 34.6 -106.5 -90.6 -65.8 112 0 Z"/>
+  <text x="256" y="430" font-family="Arial, sans-serif" font-size="84" font-weight="900" fill="#B22234" text-anchor="middle">1776</text>
+</svg>

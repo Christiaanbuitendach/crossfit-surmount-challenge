@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "WebFetch(domain:crossfitsurmount.com)",
+      "Bash(node scripts/generate-icons.mjs)",
+      "Bash(npm install *)",
+      "Bash(npm view *)",
+      "Bash(npm audit *)",
+      "Bash(npx tsc *)",
+      "Bash(echo \"=== tsc exit: $? ===\")",
+      "Bash(npm run *)",
+      "Bash(node -e \"const fs=require\\('fs'\\);for\\(const f of ['icon-192','icon-512','icon-maskable-512','apple-touch-icon']\\){const b=fs.readFileSync\\('public/icons/'+f+'.png'\\);const sig=b.subarray\\(0,8\\).toString\\('hex'\\);console.log\\(f, sig==='89504e470d0a1a0a'?'OK PNG':'BAD', b.length+'b'\\)}\")"
+    ]
+  }
+}
